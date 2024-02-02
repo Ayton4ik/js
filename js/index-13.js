@@ -49,3 +49,28 @@
 // console.log(filterNumbers([1, 2, 3, 4, 5], 10, 15, 2, 3, 8)); // [2, 3]
 // console.log(filterNumbers([10, 15, 25, 30], 23, 30, 18, 15)); // [30, 15]
 // console.log(filterNumbers([100, 200, 300, 400, 500], 7, 12, 200, 64)); // [200]
+
+// Посилальний тип даних
+
+// let number = 5;
+// const number2 = number;
+
+// number = 25;
+// console.log(number);
+// console.log(number2);
+
+// // console.log(number === number2);
+// // console.log('Hello' === 'Hello');
+// const arr1 = [];
+// const arr3 = arr1;
+
+// arr1.push(10)
+// console.log(arr1);
+// console.log(arr3);
+
+
+// console.log(arr1 === arr3);
+// console.log([1, 2, 3] === [1, 2, 3]);
+
+// Callback function
+
