@@ -67,3 +67,40 @@
 //     }
 // }
 // person.getPersonData();
+
+
+// const students = [
+//     {
+//     name: 'student-1',
+//     age: 15,
+//     gender: 'male',
+//     grade: 9,
+//     },
+//     {
+//     name: 'student-2',
+//     age: 16,
+//     gender: 'female',
+//     grade: 10,
+//     },
+//     {name: 'student-3',
+//     age: 16,
+//     gender: 'male',
+//     grade: 8,
+//     },
+//     ]
+    
+    
+    
+//     const getAverageGrade = function (students){
+//     let totalGrade = 0;
+//     for (let student of students) {
+//     totalGrade += student.grade
+    
+//     console.log(student);
+//     }
+    
+//     const averageGrade = totalGrade / students.length;
+//     return averageGrade;
+//     }
+    
+//     console.log(getAverageGrade(students));
