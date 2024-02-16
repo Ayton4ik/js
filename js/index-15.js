@@ -57,3 +57,64 @@
 
 // console.log(findFriendByName(friends, 'Poly'));
 // console.log(findFriendByName(friends, 'Chelsy'));
+
+
+// const numbers = [...[1, 2, 3], ...[4, 5, 6], ...[7, 8, 9]];
+
+// console.log(numbers);
+
+// const fnA = function (...rest) {
+//     console.log(rest);
+// };
+
+// fnA(10);
+// fnA(10, 20);
+// fnA(25, 35, 45);
+
+/*
+* Працюємо з колекцією товарів в кошику:
+* - getItems()
+* - add(product)
+* - remove(productName)
+* - clear()
+* - countTotalPrice()
+* - increaseQuantity(productName)
+* - decreaseQuantity(productName)
+*
+* { name: '🍎', price: 50 }
+* { name: '🍇', price: 70 }
+* { name: '🍋', price: 60 }
+* { name: '🍓', price: 110 }
+*/
+
+// const cart = {
+//     items: [],
+//     getItems() {
+//         console.log(this.items)
+//     },
+//     add(product) {
+//         this.items.push(product)
+//     },
+//     remove(productName) {
+//         let index;
+//         for (const item of this.items){
+//             if (item.name === productName){
+//                 index = this.items.indexOf(item);
+//                 this.items.splice(index, 1);
+//             }
+//         }
+//         return this.items;
+//     },
+//     clear() {},
+//     countTotalPrice() {},
+//     increaseQuantity(productName) {},
+//     decreaseQuantity(productName) {},
+// };
+// cart.add({ name: '🍎', price: 50 });
+// cart.add({ name: '🍇', price: 70 });
+// cart.add({ name: '🍋', price: 60 });
+// cart.add({ name: '🍓', price: 110 });
+// console.log(cart);
+// console.log(cart.getItems());
+// console.log(cart.remove('🍎'));
+// console.log(cart.remove('🍋'));
