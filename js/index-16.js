@@ -108,12 +108,12 @@
 // Напишіть функцію, яка отримує об'єкт зі списком електронних адрес (поле "emails")
 //  та використовує деструктуризацію для повернення першої адреси в цьому списку.
 
-const person = {
-name: 'John',
-emails: ['john@gmail.com', 'john@example.com', 'john123@yahoo.com']
-};
-const getFirstEmail = function({emails: [firstEmail]}){
-    return firstEmail;
-}
+// const person = {
+// name: 'John',
+// emails: ['john@gmail.com', 'john@example.com', 'john123@yahoo.com']
+// };
+// const getFirstEmail = function({emails: [firstEmail]}){
+//     return firstEmail;
+// }
 
-console.log(getFirstEmail(person)); // 'john@gmail.com'
+// console.log(getFirstEmail(person)); // 'john@gmail.com'
