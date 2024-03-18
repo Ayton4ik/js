@@ -67,3 +67,13 @@
 
 
 
+
+// const articleRef = document.querySelector('.article');
+// console.log(articleRef);
+
+// const titleRef = document.querySelector('.article > h1');
+// console.log(titleRef);
+
+// const textRef = document.querySelector('h1 + p');
+// console.log(textRef);
+
