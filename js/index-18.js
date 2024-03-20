@@ -77,3 +77,24 @@
 // const textRef = document.querySelector('h1 + p');
 // console.log(textRef);
 
+
+/*
+ * Атрибути
+ * - get(ім'я-атрибута)
+ * - set(ім'я-атрибута)
+ * - remove(ім'я-атрибута)
+ * - has(ім'я-атрибута)
+ */
+
+
+const linksRef = document.querySelectorAll('li > a');
+console.log(linksRef);
+
+const ulRef = document.querySelector('ul');
+const linksInsideList = ulRef.querySelectorAll('a');
+console.log(linksInsideList);
+
+
+const titleRef = document.querySelector('h1');
+titleRef.textContent = 'Заголовок';
+console.log(titleRef);
