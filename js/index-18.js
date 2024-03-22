@@ -84,6 +84,18 @@
  * - set(ім'я-атрибута)
  * - remove(ім'я-атрибута)
  * - has(ім'я-атрибута)
+ * const magicBtn = document.querySelector('.js-magic-btn');
+
+
+    console.dir(magicBtn.type);
+    console.log(magicBtn.getAttribute('type'));
+
+    magicBtn.type = 'button';
+    magicBtn.setAttribute('type', 'button')
+
+
+    magicBtn.hasAttribute('type')// true
+    magicBtn.removeAttribute('type')
  */
 
 
